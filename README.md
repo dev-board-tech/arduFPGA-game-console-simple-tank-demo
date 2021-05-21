@@ -14,3 +14,8 @@ Both communication are done thru arduFPGA onboard USB connector.
 A simplified representation of the block schematick:
 
 ![arduFPGA-game-console-mini-tank-controller-block-sch](https://raw.githubusercontent.com/dev-board-tech/arduFPGA-game-console-simple-tank-demo/main/sch_block/arduFPGA-game-console_simple_tank_controller_sch_block.png)
+
+A small video:
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=gQMlpMnd5RA"><img src="https://img.youtube.com/vi/gQMlpMnd5RA/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
