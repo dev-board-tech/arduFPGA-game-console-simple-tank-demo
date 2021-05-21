@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/22/2020 11:23:13
+#Project Location: D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl; Project name: arduFPGA_game_console_simple_tank_demo
+prj_open "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/arduFPGA_game_console_simple_tank_demo.rdf"
+prj_remove_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/atmega32u4.v"
+prj_add_source "D:/GitHubDevBoard/hdl-core-mega-xmega/template/atmega32u4_arduboy.v"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/22/2020 17:40:22

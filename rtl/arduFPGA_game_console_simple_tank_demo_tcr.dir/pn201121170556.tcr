@@ -1,0 +1,16 @@
+#Start recording tcl command: 11/21/2020 16:47:27
+#Project Location: D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl; Project name: arduFPGA_game_console_simple_tank_demo
+prj_create -name "arduFPGA_game_console_simple_tank_demo" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/impl_1.ldc" "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/impl_1.pdc"
+prj_save 
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/top.v"
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/arduFPGA_game_console_simple_tank_demo_tcr.pdc"
+prj_enable_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/arduFPGA_game_console_simple_tank_demo_tcr.pdc"
+prj_remove_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/impl_1.pdc"
+prj_add_source "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega_twi_s.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-twi_s_h.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-uart.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-tim-8bit.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-spi-m.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-rtc.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-pio.v" "D:/GitHubDevBoard/hdl-core-common/io-atmega/atmega-eep.v"
+prj_add_source "D:/GitHubDevBoard/hdl-core-mega-xmega/io-s-h.v" "D:/GitHubDevBoard/hdl-core-mega-xmega/mega-alu.v" "D:/GitHubDevBoard/hdl-core-mega-xmega/mega-core.v" "D:/GitHubDevBoard/hdl-core-mega-xmega/mega-def.v" "D:/GitHubDevBoard/hdl-core-mega-xmega/mega-ram.v" "D:/GitHubDevBoard/hdl-core-mega-xmega/mega-reg.v" "D:/GitHubDevBoard/hdl-core-mega-xmega/mega-rom.v"
+prj_add_source "D:/GitHubDevBoard/hdl-core-common/util/io-dmux.v"
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/source/impl_1/atmega32u4.v"
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/PLL_DEV_48M/PLL_DEV_48M.ipx"
+prj_run Synthesis -impl impl_1
+#Stop recording: 11/21/2020 17:05:56

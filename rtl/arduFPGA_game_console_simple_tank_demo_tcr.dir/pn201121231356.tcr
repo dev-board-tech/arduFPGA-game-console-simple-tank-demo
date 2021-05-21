@@ -1,0 +1,24 @@
+#Start recording tcl command: 11/21/2020 17:06:30
+#Project Location: D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl; Project name: arduFPGA_game_console_simple_tank_demo
+prj_open "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/arduFPGA_game_console_simple_tank_demo.rdf"
+prj_run Synthesis -impl impl_1
+prj_add_source "D:/GitHubDevBoard/hdl-core-common/io-other/pwm.v"
+prj_run Synthesis -impl impl_1
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-arduboy-emulator/l1_boot_ld.mem"
+prj_run Synthesis -impl impl_1
+prj_remove_source "D:/GitHubDevBoard/arduFPGA-game-console-arduboy-emulator/l1_boot_ld.mem"
+prj_add_source "D:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/l1_boot_ld.mem"
+prj_run Synthesis -impl impl_1
+prj_run Map -impl impl_1
+prj_run Map -impl impl_1
+prj_run Export -impl impl_1
+prj_set_strategy_value -strategy Strategy1 par_core_number=4 par_place_iterator=4
+prj_set_strategy_value -strategy Strategy1 par_spd_hld_opt=High-Performance_1.2V par_spd_setup_opt=High-Performance_1.2V
+prj_set_strategy_value -strategy Strategy1 partrce_setup_speed=High-Performance_1.2V
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/21/2020 23:13:56

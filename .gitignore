@@ -31,7 +31,6 @@
 # Executables
 *.exe
 *.out
-*.app
 *.i*86
 *.x86_64
 *.hex
@@ -50,3 +49,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*.log
+rtl/impl_1/*

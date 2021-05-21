@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/21/2021 14:54:00
+#Project Location: C:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl; Project name: arduFPGA_game_console_simple_tank_demo
+prj_open "C:/GitHubDevBoard/arduFPGA-game-console-simple-tank-demo/rtl/arduFPGA_game_console_simple_tank_demo.rdf"
+prj_run Map -impl impl_1
+prj_run Export -impl impl_1
+prj_run Map -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 5/21/2021 15:22:12
