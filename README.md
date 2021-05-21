@@ -10,3 +10,7 @@ The communication between arduFPGA and FREENOVE command/driver board is done thr
 The remote commands are received by the arduFPGA using an UART module.
 
 Both communication are done thru arduFPGA onboard USB connector.
+
+A simplified representation of the block schematick:
+
+![arduFPGA-game-console-mini-tank-controller-block-sch](https://raw.githubusercontent.com/dev-board-tech/arduFPGA-game-console-simple-tank-demo/main/sch_block/arduFPGA-game-console_simple_tank_controller_sch_block.png)
